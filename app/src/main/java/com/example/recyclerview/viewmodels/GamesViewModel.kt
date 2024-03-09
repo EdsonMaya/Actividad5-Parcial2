@@ -11,7 +11,7 @@ class GamesViewModel: ViewModel() {
     }
 
     fun getGameList() : ArrayList<Game>{
-        val game: Game = Game("FIFA 17",  999, "PS4", R.drawable.fifa7)
+        val game: Game = Game("FIFA 7",  999, "PS4", R.drawable.fifa7)
         var gameList: ArrayList<Game>  = ArrayList<Game>() //lista vacia de juegos
         gameList.add(game)
 
